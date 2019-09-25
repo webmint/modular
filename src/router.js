@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import AboutRouter from './aboutRouter';
 import SomeRouter from './someRouter';
+import FormRouter from './formRouter';
 
 // const cond = false;
 
@@ -19,6 +20,7 @@ export default new Router({
     },
     AboutRouter,
     SomeRouter,
+    FormRouter,
     // ...(cond ? [AboutRouter] : []),
   ],
 });

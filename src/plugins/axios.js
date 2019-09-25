@@ -1,5 +1,5 @@
 const axios = require('axios');
 
-axios.defaults.baseURL = process.env.VUE_APP_API_URL;
+axios.defaults.baseURL = 'http://localhost:3000/api';
 
 export default axios;
